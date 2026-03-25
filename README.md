@@ -3,9 +3,6 @@
 
 <b>Este es el material de apoyo que he creado para el ramo "Algoritmos y Programacion" </b> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="25" height="25"/> 
 
-> [!WARNING]
-> Este proyecto aun no esta terminado, por lo que queda material por subir.
-
 > [!TIP]
 > El codigo lo puedes copiar y pegar en [OnlineGDB](https://www.onlinegdb.com/) o puedes [descargar todo](https://github.com/callampin/ayudantias-ayp/archive/refs/heads/main.zip) y abrirlo en [visual studio code](https://www.youtube.com/watch?v=9VE7p-he4fA)
 
@@ -18,15 +15,15 @@
 	- [x] Funciones
 - [x] 02 - Estructuras estaticas
 	- [x] Arreglos
-	- [ ] Archivos
-- [ ] 03 - Recursividad
-    - [ ] Recurrencia
-	- [ ] Recursividad con tipos elementales
-	- [ ] Recursividad con tipos estructurados
-- [ ] 04 - Estructuras dinamicas
-	- [ ] Punteros y nodos
-	- [ ] Listas enlazadas y multi-lista
-	- [ ] Arboles binarios
+	- [x] Archivos
+- [x] 03 - Recursividad
+    - [x] Recurrencia
+	- [x] Recursividad con tipos elementales
+	- [x] Recursividad con tipos estructurados
+- [x] 04 - Estructuras dinamicas
+	- [x] Punteros y nodos
+	- [x] Listas enlazadas y multi-lista
+	- [x] Arboles binarios
 
 
 [![Banner](https://i.imgur.com/c1jXLkW.png)](https://csalazar.cl)

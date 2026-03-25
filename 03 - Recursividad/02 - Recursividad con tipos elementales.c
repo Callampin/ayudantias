@@ -1,18 +1,30 @@
+
 #include <stdio.h>
 
-/*  La recursividad con tipos elementales es cuando se usa recursión
-    en funciones que manipulan datos simples, como enteros o caracteres. 
-    Este tipo de recursión es fundamental en muchos algoritmos como el 
-    cálculo de factoriales o la búsqueda binaria.*/
+int potencia(int base, int exponente) {
+    if (exponente == 0) return 1;
+    return base * potencia(base, exponente - 1);
+}
 
-int factorial(int n) {
-    if (n == 0) return 1; // Caso base
-    return n * factorial(n - 1); // Caso recursivo
+int multiplicacion(int a, int b) {
+    if (b == 0) return 0;
+    return a + multiplicacion(a, b - 1);
+}
+
+int contarDigitos(int n) {
+    if (n == 0) return 0;
+    return 1 + contarDigitos(n / 10);
 }
 
 int main() {
-    int numero = 5;
-    printf("El factorial de %d es: %d\n", numero, factorial(numero));
+    printf("--- Potencia ---\n");
+    printf("2^5 = %d\n", potencia(2, 5));
+    
+    printf("\n--- Multiplicacion ---\n");
+    printf("3 x 4 = %d\n", multiplicacion(3, 4));
+    
+    printf("\n--- Contar digitos ---\n");
+    printf("Cantidad de digitos en 98765: %d\n", contarDigitos(98765));
     
     getchar();
     return 0;
